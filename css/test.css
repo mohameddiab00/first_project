@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body {
+    /* to make photo is dark */
+    background-image:linear-gradient(rgba(0,0,0,0.5) ,rgba(0,0,0,0.5)) , url(../photos/temp.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.container {
+    width: 1350px;
+}
+header {
+    width: auto;
+    overflow: auto;
+    margin: 2.5%;
+}
+.logo {
+    float: left;
+}
+.logo h2 {
+    color: white;
+    /* font-size: 25px; */
+    margin-left: 1px;
+    
+}
+.logo h2:hover{
+    color: yellow;
+}
+nav {
+    float: right;
+
+}
+nav ul{
+    width: auto;
+    overflow: auto;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px 15px;
+    /* font-size: 22px; */
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+
+     
+}
+nav ul li a:hover {
+    color: yellow;
+}
+.text {
+    margin-top: 17%;
+}
+.text h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #eee;
+    font-family: cursive;
+}
+.button {
+    margin-left: 39%;
+    color: white;
+
+} 
+.button .b1 {
+   
+    font-size:18px;
+    width: 130px;
+    height: 40px;
+    background-color: rgb(64, 64, 211);
+    color: white;
+    padding-right: 2.5px;
+}
+.button .b2 {
+   
+    font-size:18px;
+    width: 130px;
+    height: 40px;
+    padding-left: 4px;
+    margin-left: 2.5px;
+}
+.button .b1 a{
+    text-decoration: none;
+    color: white;
+}
+.button .b2 a{
+    text-decoration: none;
+}
